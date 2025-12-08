@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "prettier.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
+    "svelte.svelte-vscode",
+    "dsrkafuu.vscode-theme-aofuji",
+    "devzhaoyou.better-one-dark-vivid-theme"
+  ]
+}
