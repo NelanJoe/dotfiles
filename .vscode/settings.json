@@ -1,0 +1,30 @@
+{
+  // Window
+  "window.zoomLevel": 1.4,
+
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.tips.enabled": false,
+  "workbench.activityBar.location": "bottom",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 8,
+
+  "files.autoSave": "afterDelay",
+
+  "editor.stickyScroll.enabled": false,
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 2.5,
+  "editor.defaultFormatter": "prettier.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+}
