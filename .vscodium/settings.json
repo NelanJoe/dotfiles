@@ -12,9 +12,10 @@
   "workbench.tree.renderIndentGuides": "none",
   "workbench.tree.indent": 8,
 
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "onFocusChange",
 
   "editor.stickyScroll.enabled": false,
+  "editor.lineNumbers": "relative",
   "editor.tabSize": 2,
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "line",
@@ -25,5 +26,17 @@
   "editor.defaultFormatter": "prettier.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.tabCompletion": "on",
-  "editor.snippetSuggestions": "top"
+  "editor.snippetSuggestions": "top",
+
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.windows": "powershell",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Catppuccin Frappé",
+
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "vue-html": "html"
+  }
 }

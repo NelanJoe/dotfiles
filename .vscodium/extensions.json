@@ -6,6 +6,10 @@
     "dsznajder.es7-react-js-snippets",
     "svelte.svelte-vscode",
     "dsrkafuu.vscode-theme-aofuji",
-    "devzhaoyou.better-one-dark-vivid-theme"
+    "devzhaoyou.better-one-dark-vivid-theme",
+    "formulahendry.auto-close-tag",
+    "redwan-hossain.auto-rename-tag-clone",
+    "Catppuccin.catppuccin-vsc",
+    "PKief.material-icon-theme"
   ]
 }
