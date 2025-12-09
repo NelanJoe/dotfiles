@@ -39,6 +39,9 @@
 
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.windows": "powershell",
+  "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
 
   "emmet.showExpandedAbbreviation": "always",
   "emmet.includeLanguages": {
