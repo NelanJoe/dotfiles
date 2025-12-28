@@ -37,7 +37,8 @@
   "editor.scrollbar.horizontalScrollbarSize": 6,
   "editor.largeFileOptimizations": true,
 
-  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.linux": "fish",
+  // "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.windows": "powershell",
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.cursorStyle": "line",
