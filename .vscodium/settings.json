@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 1.4,
+  "window.zoomLevel": 1,
   "window.commandCenter": false,
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": "single",
@@ -15,7 +15,7 @@
   "breadcrumbs.symbolPath": "off",
 
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.colorTheme": "One Dark Modern",
 
   "files.autoSave": "onFocusChange",
 
@@ -26,7 +26,7 @@
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontFamily": "'Monaspace Neon NF', monaspace, sans-serif",
+  "editor.fontFamily": "'JetbrainsMonoNL NFM', 'GeistMono NFM', 'FiraCode Nerd Font Mono', monaspace, sans-serif",
   "editor.fontSize": 14,
   "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
   "editor.lineHeight": 2.5,
@@ -37,7 +37,7 @@
   "editor.scrollbar.horizontalScrollbarSize": 6,
   "editor.largeFileOptimizations": true,
 
-  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.defaultProfile.windows": "powershell",
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.cursorStyle": "line",
@@ -48,5 +48,13 @@
     "javascript": "javascriptreact",
     "typescript": "typescriptreact",
     "vue-html": "html"
+  },
+
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
   }
 }

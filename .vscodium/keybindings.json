@@ -1,10 +1,5 @@
 [
   {
-    "key": "ctrl+d",
-    "command": "editor.action.copyLinesDownAction",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "shift+alt+up",
     "command": "editor.action.copyLinesUpAction",
     "when": "editorTextFocus"
