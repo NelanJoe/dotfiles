@@ -27,3 +27,4 @@ vim.o.termguicolors = true
 vim.o.timeoutlen = 400
 vim.o.undofile = true
 vim.o.cursorline = true
+
