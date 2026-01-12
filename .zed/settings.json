@@ -9,8 +9,8 @@
 {
   "icon_theme": "Material Icon Theme",
   "buffer_font_family": "GeistMono Nerd Font Mono",
-  "ui_font_size": 16,
-  "buffer_font_size": 15.0,
+  "ui_font_size": 17.5,
+  "buffer_font_size": 16.0,
   "buffer_line_height": {
     "custom": 3.5,
   },
@@ -59,23 +59,28 @@
   },
   "languages": {
     "PHP": {
+      "language_servers": ["intelephense", "phpactor", "phptools"],
       "format_on_save": "on",
       "tab_size": 2,
     },
     "Blade": {
+      "formatter": "language_server",
       "format_on_save": "on",
       "tab_size": 2,
     },
-    "JavaScript": {
-      "format_on_save": "on",
-    },
     "TypeScript": {
-      "format_on_save": "on",
+      "language_servers": ["typescript-language-server", "vtsls"],
+    },
+    "TSX": {
+      "language_servers": ["typescript-language-server", "vtsls"],
+    },
+    "JavaScript": {
+      "language_servers": ["typescript-language-server", "vtsls"],
     },
   },
   "theme": {
     "mode": "dark",
-    "light": "One Light",
-    "dark": "One Dark Pro",
+    "light": "Ayu Light",
+    "dark": "One Dark",
   },
 }
