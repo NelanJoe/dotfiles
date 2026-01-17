@@ -34,19 +34,21 @@
   "cursor_blink": true,
   "autosave": "on_focus_change",
   "format_on_save": "on",
-  "soft_wrap": "none",
+  "soft_wrap": "editor_width",
   "show_whitespaces": "selection",
-  "scrollbar": {
-    "show": "always",
-    "axes": {
-      "vertical": true,
-      "horizontal": true,
-    },
-  },
   "project_panel": {
     "dock": "left",
     "indent_size": 20,
   },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false,
+    "selections_menu": false,
+  },
+  "edit_predictions": {
+    "disabled_globs": [".env"],
+  },
+  "current_line_highlight": "all",
   "tabs": {
     "git_status": true,
   },
@@ -57,7 +59,29 @@
     "cursor_shape": "bar",
     "blinking": "on",
   },
+
   "languages": {
+    "TypeScript": {
+      "language_servers": ["typescript-language-server", "!vtsls", "..."],
+    },
+    "TSX": {
+      "language_servers": ["typescript-language-server", "!vtsls", "..."],
+    },
+    "JavaScript": {
+      "language_servers": ["typescript-language-server", "!vtsls", "..."],
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"],
+        },
+      },
+    },
+    "CSS": {
+      "language_servers": [
+        "tailwindcss-intellisense-css",
+        "!vscode-css-language-server",
+      ],
+    },
     "PHP": {
       "language_servers": ["intelephense", "phpactor", "phptools"],
       "format_on_save": "on",
@@ -68,15 +92,19 @@
       "format_on_save": "on",
       "tab_size": 2,
     },
-    "TypeScript": {
-      "language_servers": ["typescript-language-server", "vtsls"],
+  },
+  "lsp": {
+    "tailwindcss-language-server": {
+      "settings": {
+        "classFunctions": ["cva", "cx"],
+        "experimental": {
+          "classRegex": ["[cls|className]\\s\\:\\=\\s\"([^\"]*)"],
+        },
+      },
     },
-    "TSX": {
-      "language_servers": ["typescript-language-server", "vtsls"],
-    },
-    "JavaScript": {
-      "language_servers": ["typescript-language-server", "vtsls"],
-    },
+  },
+  "file_types": {
+    "Blade": ["*.blade.php"],
   },
   "theme": {
     "mode": "dark",

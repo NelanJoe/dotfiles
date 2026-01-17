@@ -2,19 +2,20 @@
   "recommendations": [
     "cweijan.onedark-modern",
     "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
+    "formulahendry.auto-close-tag",
+    "redwan-hossain.auto-rename-tag-clone",
+    "editorconfig.editorconfig",
     "devsense.composer-php-vscode",
     "devsense.intelli-php-vscode",
     "devsense.phptools-vscode",
     "devsense.profiler-php-vscode",
-    "dsznajder.es7-react-js-snippets",
-    "formulahendry.auto-close-tag",
-    "redwan-hossain.auto-rename-tag-clone",
     "laravel.vscode-laravel",
-    "mvllow.rose-pine",
-    "open-southeners.php-support-utils",
+    "open-southeners.laravel-pint",
+    "shufo.vscode-blade-formatter",
     "pkief.material-icon-theme",
     "prettier.prettier-vscode",
-    "shufo.vscode-blade-formatter",
-    "timsexperiments.vscode-tailwindcss"
+    "timsexperiments.vscode-tailwindcss",
+    "vue.volar"
   ]
 }
