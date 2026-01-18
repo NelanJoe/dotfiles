@@ -1,4 +1,5 @@
 [
+  // --- 1. DUPLICATE LINES (Yang sebelumnya) ---
   {
     "key": "shift+alt+up",
     "command": "editor.action.copyLinesUpAction",
@@ -7,6 +8,46 @@
   {
     "key": "shift+alt+down",
     "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+
+  // --- 2. MOVE LINES (Memindahkan baris tanpa copy) ---
+  // Gunakan Alt + Panah Atas/Bawah
+  {
+    "key": "alt+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus"
+  },
+
+  // --- 3. DELETE LINE (Hapus baris saat ini) ---
+  // Gunakan Ctrl + D (Miripp Sublime Text/IntelliJ)
+  {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.selectNextFindMatch",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus"
+  },
+
+  // --- 4. TEXT TRANSFORMATION (Ubah Huruf Besar/Kecil) ---
+  // Ctrl + K lalu tekan U (untuk Upper)
+  {
+    "key": "ctrl+k u",
+    "command": "editor.action.transformToUppercase",
+    "when": "editorTextFocus"
+  },
+  // Ctrl + K lalu tekan L (untuk Lower)
+  {
+    "key": "ctrl+k l",
+    "command": "editor.action.transformToLowercase",
     "when": "editorTextFocus"
   }
 ]
