@@ -1,53 +1,79 @@
 {
-  "window.zoomLevel": 1.4,
+  "window.zoomLevel": 1,
   "window.commandCenter": false,
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": "single",
   "workbench.tips.enabled": true,
-  "workbench.activityBar.location": "bottom",
-  "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "bottom",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.tree.renderIndentGuides": "none",
+  "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 8,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
 
   "breadcrumbs.filePath": "on",
   "breadcrumbs.symbolPath": "off",
 
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "One Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
 
   "files.autoSave": "onFocusChange",
 
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": false,
-  "editor.lineNumbers": "relative",
   "editor.tabSize": 2,
+  "editor.lineNumbers": "relative",
+  "editor.fontFamily": "'GeistMono NFM', 'JetbrainsMonoNL NFM', 'FiraCode Nerd Font Mono', monaspace, sans-serif",
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 2.8,
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
-  // "editor.fontFamily": "'Monaspace Neon NF', monaspace, sans-serif",
-  "editor.fontSize": 14,
-  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
-  "editor.lineHeight": 2.5,
-  "editor.defaultFormatter": "prettier.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.tabCompletion": "on",
-  "editor.scrollbar.verticalScrollbarSize": 6,
-  "editor.scrollbar.horizontalScrollbarSize": 6,
+  "editor.scrollbar.horizontal": "visible",
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.scrollbar.horizontalScrollbarSize": 8,
   "editor.largeFileOptimizations": true,
 
   "terminal.integrated.defaultProfile.linux": "fish",
-  // "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.defaultProfile.windows": "powershell",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.suggest.enabled": false,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorBlinking": true,
 
   "emmet.showExpandedAbbreviation": "always",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact",
     "vue-html": "html"
-  }
+  },
+
+  // Astro JS
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+
+  "javascript.preferences.quoteStyle": "double",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.quoteStyle": "double",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "Typescript": "typescriptreact"
+  },
+
+  // Github copilot
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "task.allowAutomaticTasks": "off",
+  "editor.linkedEditing": true,
+  "git.autofetch": true
 }
